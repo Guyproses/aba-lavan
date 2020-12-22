@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>אתר למלחמה באפליית נשים</title>
+    <style>
+        body{
+            background-color:RGB(255,0,255)
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <form action="asp.aspx">
+        <table>
+            <tr>
+                <td>
+                    <p style="font-size:40px; font-family:'Gan CLM'">
+                        שלום שלום וברוכים הבאים לאתר הרשמי של האגודה הבינלאומית למלחמה באפליית נשים או בקיצור אבא"לבן
+                    </p>
+                    <p style="font-size:25px">מהו מינך? <br />
+                    <input type="radio" id="male" name="gender" value="male" style="font-size:30px" />
+                    <label for="male">זכר</label><br />
+                    <input type="radio" id="female" name="gender" value="female" style="font-size:30px" />
+                    <label for="female">נקבה</label><br />
+                    </p>
+
+                    <p style="font-size:25px">מה עדתך? <br />
+                    <input type="radio" id="arab" name="where" value="arab" style="font-size:30px" />
+                    <label for="arab">ערבי</label><br />
+                    <input type="radio" id="jew" name="where" value="jew" style="font-size:30px" />
+                    <label for="jew">יהודי</label><br />
+                    <input type="radio" id="other2" name="where" value="other2" style="font-size:30px" />
+                    <label for="other2">אחר</label><br />
+                    </p>
+
+                    <p style="font-size:25px">
+                        מה שמך?
+                        <input type="text" id="country" name="country"/>
+                    </p>
+                    <p style="font-size:25px">
+                        האם במקום מגוריך ישנה אפליה כלפי נשים ואתה רוצה לשנות את זה?
+                        <br />
+                        <input type="radio" id="yes" name="?" value="yes" />
+                        <label for="yes">כן</label><br />
+                        <input type="radio" id="no" name="?" value="no" />
+                        <label for="no">לא</label><br />
+                    </p>
+
+                    <input type="submit" id="submit" name="submit" value="שלח" onsubmit="asp.aspx" onclick="asp.aspx" />
+                </td>
+                <td></td>
+                <td></td>
+                <td><img src="isha.jpg" /><br />
+                </td>
+            </tr>
+            <tr>
+                <td><img src="workv.png" /><br /></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <img src="kitchenx.png" /><br />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
